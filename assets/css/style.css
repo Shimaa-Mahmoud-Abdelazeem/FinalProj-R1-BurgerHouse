@@ -1,0 +1,478 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+/* Header */
+header {
+    background-image: url('../../images/Header-Background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130vh;
+}
+
+.nav-menu {
+    margin-top: -1.5rem;
+    user-select: none;
+}
+
+.menu-item {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 19px;
+    color: #43200C;
+    letter-spacing: 5px;
+    transition: color .5s;
+}
+
+.menu-item:hover {
+    color: white;
+}
+.delivery-text{
+    font-size: 17px;
+}
+.logo-img{
+    width: 14rem;
+    margin-top: -4rem;  
+}
+@media (max-width:991px){
+    .logo-img{
+        margin-top: -0.5rem;  
+    }
+    .delivery-text{
+        margin: 0 auto !important;
+        margin-bottom: 2rem !important;
+    }
+}
+
+
+/* banner */
+.banner {
+    color: #43200C;
+    font-family: 'Alfa Slab One', cursive;
+    height: 100vh;
+}
+
+.burger-banner {
+    width: 95%;
+    position: absolute;
+    padding-top: 3rem;
+    padding-left: 3rem;
+}
+
+.banner-text1 {
+    font-family: 'Bebas Neue', sans-serif;
+    border: 2px dashed #43200C;
+    width: fit-content;
+    padding: 10px;
+    margin-top: 20vh;
+    font-size: 1.4rem;
+}
+
+.banner-text2 {
+    font-size: 6.5rem;
+}
+
+.banner-text2,
+.banner-text3 {
+    text-shadow: 1px 4px #f7f3f3;
+}
+
+@media (min-width:577px) and (max-width:767px) {
+    .banner-text1 {
+        margin: 0 auto !important;
+    }
+    .banner-text2 {
+        font-size: 5rem !important;
+    }
+    header {
+        height: 140vh;
+    }
+
+    .burger-banner {
+        width: 95%;
+    }
+}
+
+@media (max-width:576px) {
+    .banner-text1 {
+        margin-top: 10vh;
+    }
+    .banner-text2 {
+        font-size: 4rem !important;
+    }
+}
+
+@media (min-width:1000px) and (max-width:1115px) {
+    .banner-text2 {
+        font-size: 5.5rem !important;
+    }
+}
+
+@media (min-width:1000px) and (max-width:1046px) {
+    .banner-text1 {
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width:950px) and (max-width:1000px) {
+    .banner-text2 {
+        font-size: 5rem !important;
+    }
+    .banner-text1 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width:768px) and (max-width:949px) {
+    .banner-text2 {
+        font-size: 4rem !important;
+    }
+    .banner-text1 {
+        font-size: 0.9rem;
+    }
+}
+
+
+/* End Header */
+
+/* menu Section */
+/*  menu section 1 */
+.menu-sec1 {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.menu-img1,
+.menu-img2,
+.menu-img3 {
+    position: relative;
+}
+
+.menu-img3 {
+    margin-top: 7px;
+}
+
+.img-text1 {
+    position: absolute;
+    top: 5%;
+    left: 7%;
+    letter-spacing: 1px;
+    opacity: 0.9;
+}
+
+.img-text2,
+.img-text3 {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    letter-spacing: 1px;
+    opacity: 0.9;
+}
+
+.big-text {
+    font-size: 32px;
+    font-weight: 400;
+
+}
+
+.img-text1 h5,
+.img-text2 h5,
+.img-text3 h5 {
+    line-height: 1;
+}
+.menu-text{
+    text-decoration: none;
+    color: white;
+}
+.menu-text:hover{
+color: #ffc045;
+}
+
+/* Menu Section 2 */
+.menu-sec2 {
+    color: #43200C;
+}
+
+.btn-titel {
+    font-family: 'Bebas Neue';
+    color: #43200C;
+    background-color: #ffc045;
+    font-size: 25px;
+
+}
+
+.btn-titel:hover {
+    color: #ffc045;
+    background-color: #43200C;
+}
+
+.heading-menu {
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 1px;
+    font-size: 47px;
+}
+
+.heading-choose {
+    font-family: 'Bebas Neue';
+    font-size: 2.3rem;
+}
+
+.img-choose {
+    height: 300px;
+}
+
+.parag-choose {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.btn-order {
+    color: white;
+    background-color: #E01C1E;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.btn-order:hover,
+.btn-table:hover {
+    color: #43200C;
+    background-color: #ffc045;
+    box-shadow: 0px 0px 10px #ddd;
+    transition: all .5s;
+}
+
+/* End Menu */
+
+/* Start Section Events */
+.event-box {
+    box-shadow: 20px 20px 30px rgb(192, 189, 189);
+    color: #43200C;
+}
+
+.title-slide {
+    font-family: 'Bebas Neue';
+    line-height: 0.7;
+}
+
+.heading-slide {
+    font-family: 'Alfa Slab One', cursive;
+
+}
+
+.parag-slide {
+    font-weight: 400;
+}
+
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: rgb(190, 188, 188);
+}
+
+.carousel-indicators .active {
+    background-color: #ffc045;
+}
+
+.carousel-indicators {
+    position: absolute;
+    left: -89%;
+    bottom: 8%;
+}
+
+@media (max-width:767px) {
+    .carousel-indicators {
+        position: absolute;
+        right: 0;
+        bottom: 4%;
+        left: 0;
+        z-index: 100;
+    }
+}
+
+@media (min-width:768px) and (max-width:1300px) {
+    .carousel-indicators {
+        position: absolute;
+
+        bottom: 2%;
+        left: -80%;
+        z-index: 100;
+
+    }
+}
+
+/* End Section Events */
+.form-sec {
+    position: relative;
+
+}
+
+/* Start Recervatio Form */
+.small-burger {
+    position: absolute;
+    left: -6%;
+    top: 0;
+    width: auto;
+    z-index: 0;
+    /* opacity: 0.5; */
+}
+
+.title-form {
+    font-family: 'Bebas Neue';
+    color: #43200C;
+    font-size: 30px;
+}
+
+.heading-form {
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 1px;
+    font-size: 47px;
+    color: #43200C;
+}
+
+.bottle {
+    position: absolute;
+    left: 10%;
+    top: 35%;
+    z-index: 0;
+    /* opacity: 0.5; */
+    width: 250px;
+}
+
+.form-group {
+    z-index: 2;
+}
+
+.form-control {
+    width: 100%;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue';
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+.btn-table {
+    color: white;
+    background-color: #E01C1E;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+@media (min-width:768px) and (max-width:885px) {
+    .btn-table {
+        font-size: 17px;
+        text-align: center;
+    }
+}
+
+.plate {
+    width: 45rem;
+    position: absolute;
+    right: -20rem;
+    top: 33%;
+    z-index: -2;
+    /* opacity: 0.5; */
+    filter: drop-shadow(20px 20px 20px #918f8f);
+    transform: scaleX(-1);
+}
+
+@media (max-width:940px) {
+
+    .small-burger,
+    .bottle,
+    .plate {
+        opacity: 0.6;
+    }
+}
+
+/* End Recervatio Form */
+
+/* Start Section Contact Us */
+.contact-sec {
+    background-image: url('../../images/Footer-Image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5rem;
+}
+
+.icon-contact {
+    margin-top: 11rem;
+    font-family: 'Bebas Neue';
+}
+
+@media (max-width:768px) {
+    .parag-copyright {
+
+        text-align: center;
+    }
+}
+
+@media (max-width:768px) {
+    .icon-contact {
+        margin-top: 5rem;
+    }
+}
+
+.text-icon {
+    font-size: 20px;
+    color: white;
+}
+
+.text-icon:hover {
+    color: #ffc045;
+}
+
+.footer-icongroup {
+    display: flex;
+    justify-content: end;
+}
+
+.footer-icon {
+    color: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: white;
+    margin: 0 6px;
+    position: relative;
+}
+
+.instagram-icon,
+.twitter-icon {
+    color: black;
+    position: absolute;
+    top: 13%;
+    left: 28%;
+}
+
+.facebook-icon {
+    color: black;
+    position: absolute;
+    top: 15%;
+    left: 34%;
+
+}
+
+.whatsapp-icon {
+    color: black;
+    position: absolute;
+    top: 13%;
+    left: 27%;
+}
+
+.footer-icon:hover {
+    background-color: #ffc045;
+    box-shadow: 0px 0px 10px #ddd;
+    transition: all .5s;
+
+}
+
+.footer-icon a:hover {
+    color: #f7f3f3;
+}
+
+/* End Section Contact Us */
